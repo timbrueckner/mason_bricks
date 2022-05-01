@@ -1,0 +1,13 @@
+name: formz_input
+description: Generates a simple string based input using the formz package.
+version: 0.1.0+1
+repository: https://github.com/timbrueckner/mason_bricks/tree/main/bricks/replay_cubit
+
+environment:
+  mason: ">=0.1.0-dev <0.1.0"
+
+vars:
+  input_name:
+    type: string
+    description: The name of the formz input field.
+    prompt: What is the name of the input field?
