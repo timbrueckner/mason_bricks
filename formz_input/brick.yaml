@@ -1,6 +1,6 @@
 name: formz_input
-description: Generates a simple string based input using the formz package.
-version: 0.1.0+1
+description: Generates form inputs using the formz package.
+version: 0.2.0
 repository: https://github.com/timbrueckner/mason_bricks/tree/main/formz_input
 
 environment:
@@ -11,3 +11,18 @@ vars:
     type: string
     description: The name of the formz input field.
     prompt: What is the name of the input field?
+  input_type:
+    type: string
+    default: String
+    description: The type of the formz input field.
+    prompt: What is the type of the input field?
+  initial_value:
+    type: string
+    default: "''"
+    description: The initial value of the formz input field.
+    prompt: What is the initial value of the input field?
+  validate_empty_string:
+    type: boolean
+    default: true
+    description: Whether to include an empty string validation.
+    prompt: Include an empty string validation?
