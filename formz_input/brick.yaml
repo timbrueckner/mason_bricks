@@ -1,6 +1,6 @@
 name: formz_input
 description: Generates form inputs using the formz package.
-version: 0.2.0
+version: 0.2.1
 repository: https://github.com/timbrueckner/mason_bricks/tree/main/formz_input
 
 environment:
@@ -26,3 +26,8 @@ vars:
     default: true
     description: Whether to include an empty string validation.
     prompt: Include an empty string validation?
+  cache_error_result:
+    type: boolean
+    default: false
+    description: Whether to cache the result of the error validation.
+    prompt: Cache the result of the error validation?

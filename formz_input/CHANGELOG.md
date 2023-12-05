@@ -1,3 +1,8 @@
+# 0.2.1
+
+- Improves the readability of the generated validator code.
+- Adds support for the `FormzInputErrorCacheMixin`.
+
 # 0.2.0
 
 - Adds support for data types
